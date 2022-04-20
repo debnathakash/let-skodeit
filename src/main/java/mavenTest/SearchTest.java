@@ -27,6 +27,7 @@ public class SearchTest {
 		driver.findElement(By.name("q")).sendKeys("Selenium");
 		Reporter.log("sending queries to the search box");
 		driver.findElement(By.name("btnK")).sendKeys(Keys.RETURN);
+		Reporter.log("Pressing enter button");
 	}
 
 	@AfterTest
