@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[sending queries to the search box]]>
+    </line>
+    <line>
+      <![CDATA[Pressing enter button]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="11250" started-at="2022-04-20T04:31:08Z" finished-at="2022-04-20T04:31:19Z">
+  <suite name="Suite" duration-ms="10924" started-at="2022-04-24T04:02:37Z" finished-at="2022-04-24T04:02:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11250" started-at="2022-04-20T04:31:08Z" finished-at="2022-04-20T04:31:19Z">
+    <test name="Test" duration-ms="10924" started-at="2022-04-24T04:02:37Z" finished-at="2022-04-24T04:02:48Z">
       <class name="mavenTest.SearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="setUp" is-config="true" duration-ms="2015" started-at="2022-04-20T04:31:08Z" finished-at="2022-04-20T04:31:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="setUp" is-config="true" duration-ms="3084" started-at="2022-04-24T04:02:37Z" finished-at="2022-04-24T04:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="search()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="search" duration-ms="5038" started-at="2022-04-20T04:31:10Z" finished-at="2022-04-20T04:31:15Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="search" duration-ms="3645" started-at="2022-04-24T04:02:40Z" finished-at="2022-04-24T04:02:44Z">
           <reporter-output>
+            <line>
+              <![CDATA[sending queries to the search box]]>
+            </line>
+            <line>
+              <![CDATA[Pressing enter button]]>
+            </line>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="tearDown" is-config="true" duration-ms="4178" started-at="2022-04-20T04:31:15Z" finished-at="2022-04-20T04:31:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mavenTest.SearchTest@78dd667e]" name="tearDown" is-config="true" duration-ms="4177" started-at="2022-04-24T04:02:44Z" finished-at="2022-04-24T04:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
